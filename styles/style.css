@@ -1,0 +1,109 @@
+.gridcontainer {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    height: 99vh;
+}
+
+.logo-container {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo-container__logo {
+    width: 201px;
+    height: 40px;
+}
+
+.logo-container__btn {
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    width: 115px;
+    height: 38px;
+}
+
+.logo-container__cart {
+    width: 14px;
+}
+
+.main-container {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.main-container__text {
+    height: 100%;
+    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container__title {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 62px;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.main-container__discription {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.main-container__btn {
+    width: 240px;
+    height: 70px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 3% 0 0 0;
+}
+
+.main-container__img {
+    display: flex;
+    height: 75%;
+    justify-content: flex-end;
+}
+
+.main-container__nav {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #5222D0;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5222D0;
+}

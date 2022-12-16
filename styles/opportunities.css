@@ -1,0 +1,149 @@
+.logo-container__btn,
+.container__title,
+.container__title-card,
+.container__text-card,
+.container__btn,
+a {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10% 80% 15%;
+    height: 99vh;
+}
+
+.logo-container {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo-container__logo {
+    width: 201px;
+    height: 40px;
+}
+
+.logo-container__btn {
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    width: 115px;
+    height: 38px;
+}
+
+.logo-container__cart {
+    width: 14px;
+}
+
+.container {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 9% repeat(3, 30%);
+    grid-gap: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.container__title {
+    grid-column: 1/4;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+section {
+    background-color: #EC615B;
+    display: flex;
+    justify-content: center;
+}
+
+.container__img {
+    height: 120%;
+}
+
+.container__text {
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__title-card {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.container__text-card {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0%;
+    margin-left: 10px;
+}
+
+.container__title-card_white {
+    color: white;
+}
+
+.container__text_background {
+    background-color: #EC615B;
+
+}
+
+.container__email {
+    height: 30px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.container__btn {
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.main-container__nav {
+    grid-row: 6/7;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
