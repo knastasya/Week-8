@@ -1,5 +1,11 @@
+.logo-container__btn,
+.main-container__title,
+.main-container__discription,
+a {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+}
+
 .gridcontainer {
-    border: 1px solid green;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 10% 80% 10%;
@@ -27,7 +33,6 @@
     border: none;
     cursor: pointer;
     color: white;
-    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     font-size: 13px;
     font-weight: 400;
     width: 115px;
@@ -54,7 +59,6 @@
 }
 
 .main-container__title {
-    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-size: 45px;
     font-weight: 900;
@@ -64,7 +68,6 @@
 }
 
 .main-container__discription {
-    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
@@ -97,7 +100,6 @@
 a {
     text-decoration: none;
     color: #5222D0;
-    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
